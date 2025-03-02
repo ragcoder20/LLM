@@ -10,3 +10,4 @@ wikipedia
 bs4
 lxml
 scipy
+pip install -U langchain-community
