@@ -234,6 +234,11 @@ from langchain.chat_models import ChatOpenAI
 
 chat_model = ChatOpenAI(temperature=0.7, model_name="gpt-3.5-turbo")
 
+import streamlit as st
+import openai
+
+# Fetch API key securely from Streamlit Secrets
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 # `scenario_template` defines the template for the prompt that will be sent to the language model. The template sets the scenario where the model acts as an "expert AI sales analyst". It includes placeholders {advanced_summary} and {question}, which will be filled with specific data summaries and questions when generating the prompt.
 
