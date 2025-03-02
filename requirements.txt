@@ -12,3 +12,4 @@ lxml
 scipy
 langchain-community
 pypdf
+tiktoken
