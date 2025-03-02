@@ -11,3 +11,4 @@ bs4
 lxml
 scipy
 langchain-community
+pypdf
