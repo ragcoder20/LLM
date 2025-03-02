@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+matplotlib
+langchain
+openai
+faiss-cpu
+wikipedia-api
+wikipedia
+bs4
+lxml
+scipy
+pickle5
